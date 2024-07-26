@@ -1,5 +1,7 @@
 import streamlit as st
 from openai import OpenAI
+from llama_index.llms.ollama import Ollama
+
 
 # Show title and description.
 st.title("💬 Chatbot")
